@@ -31,6 +31,8 @@ This project implements a serverless data pipeline that:
 
 ### Activate virtualenv: `source .venv/bin/activate`
 
+### Install dependencies: `pip install -r requirements.txt`
+
 ### Part1 code: `part1_bls_data.py`
 - Scrapes the Bureau of Labor Statistics (BLS) directory to discover all PR dataset files
 - Implements intelligent sync using SHA256 checksums to avoid re-downloading unchanged files
